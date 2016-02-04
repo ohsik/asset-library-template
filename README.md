@@ -5,8 +5,8 @@ A template for your killer asset library or style guide!
 
 Created by O (Ohsik Park) Feb/2016
 
-** http://www.OhsikPark.com
-** Feel free to talk me about this template! o@ohsikpark.com 
+http://www.OhsikPark.com
+Feel free to talk me about this template! o@ohsikpark.com 
 -------------------------------------------------------------
 
 License: GNU General Public License
