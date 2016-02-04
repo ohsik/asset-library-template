@@ -9,7 +9,7 @@ http://www.OhsikPark.com
 
 **Feel free to talk me about this template! o@ohsikpark.com**
 
-License: GNU General Public License
+####License: GNU General Public License
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Library used:
