@@ -1,0 +1,191 @@
+/* Layout */
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cutive Mono', 'times new roman';
+    font-size: 16px;
+}
+header{
+    padding: 40px;
+    border-bottom: 1px solid #eee;
+}
+.bodywrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: table;
+}
+aside{
+    width: 25%;
+    float: left;
+    padding: 20px 0;
+    max-width: 295px;
+}
+aside li{
+    margin: 5px 0;
+}
+aside a{
+    padding: 2px 0;
+    display: inline-block;
+}
+section{
+    width: 75%;
+    float: right;
+    padding: 0 20px 40px 40px;
+    border-left: 1px solid #eee;
+}
+footer{
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid #eee;
+    padding: 40px;
+}
+.fa-heart{
+    color: #F33B32;
+}
+
+/* Logo */
+.logo{
+    display: inline-block;
+    margin: 10px;
+}
+.logo p{
+    width: auto;
+    display: table;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+.invert p{
+    background: #333;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5 ,h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: 60px 0 0 0;
+}
+header h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.t-c{
+    text-align: center;
+}
+code,
+pre{
+    background: #eee;
+    padding: 4px 8px;
+    display: inline-block;
+}
+xmp{
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+}
+.codeblock{
+    margin: 10px 0;
+}
+.codeblock xmp{
+    margin: 10px 0;
+}
+
+/* For presentation
+--------------------------------------------------------------*/
+.c1{
+    background: #CA6DD0;
+}
+.c2{
+    background: #AADA4B;
+}
+.c3{
+    background: #C7B489;
+}
+.c4{
+    background: #97A7F1;
+}
+.c5{
+    background: #ccc;
+}
+
+.colors,
+.buttons,
+.sample,
+form{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+.colors div{
+    width: 140px;
+    padding: 10px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+.colors div code{
+    background: none;
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+}
+button.btn{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+button.btn:hover{
+    box-shadow: 0 1px 1px #333;
+}
+
+/* Form elements for presentation */
+.sample{
+    max-width: 340px;
+    border: 1px solid #eee;
+    display: inline-block;
+    margin: 10px 0;
+}
+fieldset{
+    border: none;
+}
+label{
+    display: block;
+    font-size: 80%;
+}
+input,
+textarea,
+select{
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid #eee;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 767px){
+    aside,
+    section{
+        width: 100%;
+        float: none;
+    }
+    section{
+        padding-left: 0;
+        border-left: none;
+    }
+    #fix_on_scroll{
+        position: static !important;
+    }
+}
