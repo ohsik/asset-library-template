@@ -1,5 +1,6 @@
 # Asset Library / Style Guide Template
 A template for your killer asset library or style guide!
+**[See Demo](http://ohsik.github.io/asset-library-template/)**
 
 ![Asset Library / Style Guide Template](/screenshot.jpg?raw=true "Style Guide Template")
 
