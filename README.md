@@ -1,11 +1,11 @@
 # Asset Library / Style Guide Template
 A template for your killer asset library or style guide!
+This template is built to be a starting point of your asset library.
 [See Demo](http://ohsik.github.io/asset-library-template/)
 
 ![Asset Library / Style Guide Template](/screenshot.jpg?raw=true "Style Guide Template")
 
 Created by O (Ohsik Park) Feb/2016
-
 http://www.OhsikPark.com
 
 **Feel free to talk me about this template! o@ohsikpark.com**
